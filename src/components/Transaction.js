@@ -10,7 +10,7 @@ const Transaction = () => {
         <Item title= "ค่ารักษาพยายยบาล " Amount="20000" />
         <Item title= "ค่าบัตรเครดิต   " Amount="7000" />
         <Item title= "ค่าผ่อนรถ " Amount="1000" />
-        <Item title= "ค่าน้ำมัน " Amount="5000" />
+        <Item title= "ค่าน้ำมัน " Amount="50000" />
     
 
     </ul>
