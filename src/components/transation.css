@@ -1,11 +1,8 @@
-
-
-.item-list
-{
-text-align: center;
-list-style-type: none;
-padding: 40px 40px 40px 40px 0;
-margin-bottom: 40px;
+.item-list {
+    text-align: center;
+    list-style-type: none;
+    padding: 40px 40px 40px 40px 0;
+    margin-bottom: 40px;
 
 
 }
@@ -24,41 +21,16 @@ margin-bottom: 40px;
 }
 
 
-\\55555
 
 
 
-.item-list li:hover
-{
-position: sticky;
 
-left: 5rem;
-
-transition: 0.1s;
-border-radius: 70px;
-
-box-shadow: 1px 1px 100px rgba(201, 224, 87, 0.658);
+.item-list li:hover {
+    position: sticky;
+    left: 5rem;
+    transition: 0.1s;
+    border-radius: 70px;
+    box-shadow: 1px 1px 100px rgba(201, 224, 87, 0.658);
 
 
 }
-
-
-
-
-
-\\ มันใช่เหรอ ห่ะ O_o \\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
