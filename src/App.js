@@ -1,19 +1,21 @@
-import "./App.css";
 import Transaction from "./components/Transaction";
-
-
-
-
-
+import FromComponent from "./components/FromConponent";
+import "./App.css";
 
 
 
 function App() {
   return (
-    <div classname = "container">
+    <div classname="container">
       <h1>แอปรายรับรายจ่าย</h1>
-      <Transaction/>
-      
+
+
+      <FromComponent />
+      <Transaction />
+
+
+
+
 
 
     </div>
