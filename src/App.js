@@ -1,5 +1,5 @@
 import Transaction from "./components/Transaction";
-import FromComponent from "./components/FromConponent";
+import FromComponent from "./components/FromComponent";
 import "./App.css";
 
 
