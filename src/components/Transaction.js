@@ -19,10 +19,10 @@ const Transaction = () => {
     ]
 
   return (
-    <ul className='item-list'> 
+    <ul className ="item-list"> 
         
         {data.map((fingle)=>{
-          return<Item {...fingle}   key={uuidv4()}     />
+          return<Item {...fingle}   key={uuidv4()}/>
 
 
         })}

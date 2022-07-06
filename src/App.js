@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div classname="container">
+    <div  className="container">
       <h1>แอปรายรับรายจ่าย</h1>
 
 
