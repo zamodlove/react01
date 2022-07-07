@@ -6,12 +6,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div  className="container">
+    <div className="container">
       <h1>แอปรายรับรายจ่าย</h1>
 
 
-      <FromComponent />
-      <Transaction />
+      <FromComponent/>
+      <Transaction/>
 
 
 
