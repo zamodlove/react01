@@ -1,3 +1,5 @@
+import './Fromcomponent.css'
+
 const FromComponent = () => {
     const inputTitle = (event) => {
         console.log(event.target.value)
