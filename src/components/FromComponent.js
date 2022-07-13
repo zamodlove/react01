@@ -1,17 +1,38 @@
+import { useState } from 'react'
 import './Fromcomponent.css'
 
+
 const FromComponent = () => {
+
+
+    const[title,setTitle] = useState('')
+    const[amount,setamount]=useState('')
+
+
     const inputTitle = (event) => {
-        console.log(event.target.value)
+        setTitle(event.target.value)
     }
 
     const inputAmount = (event) => {
-        console.log(event.target.value)
+        setamount(event.target.value)
     }
+
+
     const saveItem = (event) => {
-        event.preventDefault ()
-        console.log("Save Complete na jaa");
+        event.preventDefault()
+        const itemData = {
+            title:title,
+            amount:amount
+
+            
+
+
+        }
+        console.log(itemData);
+
     }
+
+
 
 
     return (
